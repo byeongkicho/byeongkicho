@@ -1,10 +1,14 @@
 ## Hi, I'm Ki 👋
 
-**Cloud & DevOps Engineer** in Seoul, Korea
+**Infrastructure Engineer | Cloud/DevOps Track** in Seoul, Korea
 
-🔧 Operating hybrid infrastructure (HPE/Dell servers, Cisco networks, M365) for global enterprise clients
+🔧 Supporting global enterprise client sites (HPE/Dell servers, Cisco networks, M365) through a global IT delivery chain — building the Cloud/DevOps runway in parallel
 
-🌐 Creator of **[noglutenkorea.com](https://noglutenkorea.com)** — Gluten-free restaurant directory for Korea
+🧪 Writing production-grade PowerShell automation with DevOps principles (idempotent reconciliation, exponential-backoff retry, audit logging)
+
+🌐 Solo-building **[noglutenkorea.com](https://noglutenkorea.com)** — AI-integrated gluten-free directory for Korea
+
+🎓 Moved from social work → IT. 5 years in the US (bilingual). Learning cloud/DevOps deeply by combining cert study + daily ops + public projects.
 
 ---
 
@@ -16,9 +20,11 @@
 
 **[🍽 Gluten-Free Korea](https://noglutenkorea.com)**
 
-한국 글루텐프리 식당·카페·베이커리 디렉토리
+AI-integrated Korean gluten-free directory — solo production service
 
-`Next.js 15` `React 19` `Cloudflare Pages` `Cloudinary`
+`Next.js 15` `React 19` `Cloudflare Pages` `Eval-Driven Dev`
+
+Staged JSON data pipeline · Instagram automation · GA4 + AdSense · Multi-agent harness
 
 [![Instagram](https://img.shields.io/badge/@noglutenkorea-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/noglutenkorea)
 [![Live](https://img.shields.io/badge/Live-noglutenkorea.com-00C853?style=flat)](https://noglutenkorea.com)
@@ -30,36 +36,35 @@
 
 Production-style M365 admin automation
 
-`PowerShell` `Graph API` `Idempotent` `Self-healing`
+`PowerShell` `Graph API` `Idempotent` `Self-healing retry`
 
-Onboarding 10 users in 6.34s · Security audit · Offboarding
+**Measured**: 10-user onboarding 6.34s (from ~30 min baseline) · Self-reported benchmarks for security audit & offboarding
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**[☁️ Cloud Architecture](https://github.com/byeongkicho/AWS_Architecture001)**
+**[🎵 Regime Music Societe](https://rmsociete.com)**
 
-Hybrid reference: On-prem + M365 + AWS
+Paid client delivery — music label website (Atlanta)
 
-`EKS` `ArgoCD` `GitOps` `AI Ops` `draw.io`
+`React 18` `TypeScript` `styled-components` `framer-motion`
 
-2022 classic → 2026 hybrid evolution
+Per-page JSON-LD SEO · Tailscale preview workflow · Ongoing maintenance
+
+[![Live](https://img.shields.io/badge/Live-rmsociete.com-c9a870?style=flat)](https://rmsociete.com)
 
 </td>
 <td width="50%">
 
-### 📜 Certifications (10)
+**[☁️ Cloud Architecture](https://github.com/byeongkicho/AWS_Architecture001)**
 
-![AWS](https://img.shields.io/badge/AWS_SAA-232F3E?style=flat&logo=amazon-aws)
-![AWS](https://img.shields.io/badge/AWS_Developer-232F3E?style=flat&logo=amazon-aws)
-![Cisco](https://img.shields.io/badge/CCNA-1BA0D7?style=flat&logo=cisco)
-![GCP](https://img.shields.io/badge/GCP_ACE-4285F4?style=flat&logo=google-cloud)
-![OCI](https://img.shields.io/badge/OCI_Architect-F80000?style=flat&logo=oracle)
-![HPE](https://img.shields.io/badge/HPE_Hybrid_Cloud-0096D6?style=flat)
-![Azure](https://img.shields.io/badge/AZ--900-0078D4?style=flat&logo=microsoft-azure)
-![CompTIA](https://img.shields.io/badge/CompTIA_A+-C8202F?style=flat)
+Hybrid reference diagrams (design artifact — not deployed)
+
+`EKS` `ArgoCD` `GitOps` `AI Ops` `draw.io`
+
+2022 classic → 2026 hybrid evolution
 
 </td>
 </tr>
@@ -67,11 +72,22 @@ Hybrid reference: On-prem + M365 + AWS
 
 ---
 
-### 📊 Currently
+### 🎯 Currently
 
-- 📖 Studying for **AZ-104** (Azure Administrator)
-- 🔍 Looking for **Cloud / DevOps / SRE** roles — Seoul or Remote
-- 🌏 Bilingual: Korean (Native) / English (Full Professional)
+- 🏗️ Building production K8s + AWS EKS portfolio (FastAPI on kind → EKS with Terraform)
+- 📖 Studying **AZ-104** (Azure Administrator) — re-sitting after first attempt
+- 🔍 Looking for **Cloud / Infrastructure / DevOps / Cloud Support** roles — Seoul or Remote
+- 🌏 Bilingual: Korean (Native) / English (Full Professional, lived 5 years in the US)
+
+---
+
+### 📜 Certifications
+
+AWS SAA · AWS Developer · CCNA · GCP ACE · OCI Architect Associate · HPE Hybrid Cloud · Azure AZ-900 · Google IT Support · (AZ-104 in progress)
+
+---
+
+### 🔗 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-byeongkicho-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/byeongkicho)
-[![Website](https://img.shields.io/badge/🍽_noglutenkorea.com-00C853?style=flat)](https://noglutenkorea.com)
+[![Email](https://img.shields.io/badge/byeongkicho%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:byeongkicho@gmail.com)
