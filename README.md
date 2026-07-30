@@ -1,93 +1,56 @@
 ## Hi, I'm Ki 👋
 
-**Infrastructure Engineer | Cloud/DevOps Track** in Seoul, Korea
+**Infrastructure Engineer** · growing into **SRE / DevOps**, with an **AIOps** edge · Seoul, Korea
 
-🔧 Supporting global enterprise client sites (HPE/Dell servers, Cisco networks, M365) through a global IT delivery chain — building the Cloud/DevOps runway in parallel
+*~13 months in IT after a social-work → infrastructure career switch. Everything below I've built or operated hands-on — the "not deployed" / "self-reported" labels are deliberate.*
 
-🧪 Writing production-grade PowerShell automation with DevOps principles (idempotent reconciliation, exponential-backoff retry, audit logging)
-
-🌐 Solo-building **[noglutenkorea.com](https://noglutenkorea.com)** — AI-integrated gluten-free directory for Korea
-
-🎓 Moved from social work → IT. 5 years in the US (bilingual). Learning cloud/DevOps deeply by combining cert study + daily ops + public projects.
+An infra engineer who actually **runs agentic AI in his daily workflow — not just reads about it.** *(Claude Certified Architect – Foundations)*
 
 ---
 
-### 🚀 Projects
+### 🛠 What I do
 
-<table>
-<tr>
-<td width="50%">
+- 🔧 Hands-on infra & systems ops — HPE/Dell servers, Cisco networking, M365 — for global enterprise clients via a global IT delivery chain. Now automating the repeatable parts.
+- ☁️ Cloud / Platform — EKS + Terraform + GitOps (see ⭐ below)
+- 🧪 Production automation with DevOps principles — idempotent reconciliation, backoff+jitter retry honoring 429/503, audit logging
+- 🤖 Infra × AI — a multi-agent (Claude Code) system I run to automate my own ops / job pipeline (career-ops)
+- 🎓 Social work → IT — I bring an ops-and-people lens to incidents and handoffs, and I learn in public
 
-**[🍽 Gluten-Free Korea](https://noglutenkorea.com)**
+---
 
-AI-integrated Korean gluten-free directory — solo production service
+### ⭐ Featured — [smallbiz-cloud-platform](https://github.com/byeongkicho/smallbiz-cloud-platform)
 
-`Next.js 15` `React 19` `Cloudflare Pages` `Eval-Driven Dev`
+Production-shaped **EKS 1.31** platform: modular **Terraform** (`vpc` / `eks` / `rds`), **ArgoCD** GitOps, **IRSA** pod-level IAM, AWS Load Balancer Controller, **Karpenter** + **HPA**, CloudWatch observability.
 
-Staged JSON data pipeline · Instagram automation · GA4 + AdSense · Multi-agent harness
+*Provisioned & verified on my own AWS account, then torn down deliberately for cost control — with a cost-analysis writeup of steady-state spend.*
 
-[![Instagram](https://img.shields.io/badge/@noglutenkorea-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/noglutenkorea)
-[![Live](https://img.shields.io/badge/Live-noglutenkorea.com-00C853?style=flat)](https://noglutenkorea.com)
+---
 
-</td>
-<td width="50%">
+### 🚀 More projects
 
-**[⚙️ M365 Automation Toolkit](https://github.com/byeongkicho/m365-automation-toolkit)**
-
-Production-style M365 admin automation
-
-`PowerShell` `Graph API` `Idempotent` `Self-healing retry`
-
-**Measured**: 10-user onboarding 6.34s (from ~30 min baseline) · Self-reported benchmarks for security audit & offboarding
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[🎵 Regime Music Societe](https://rmsociete.com)**
-
-Paid client delivery — music label website (Atlanta)
-
-`React 18` `TypeScript` `styled-components` `framer-motion`
-
-Per-page JSON-LD SEO · Tailscale preview workflow · Ongoing maintenance
-
-[![Live](https://img.shields.io/badge/Live-rmsociete.com-c9a870?style=flat)](https://rmsociete.com)
-
-</td>
-<td width="50%">
-
-**[☁️ Cloud Architecture](https://github.com/byeongkicho/AWS_Architecture001)**
-
-Hybrid reference diagrams (design artifact — not deployed)
-
-`EKS` `ArgoCD` `GitOps` `AI Ops` `draw.io`
-
-2022 classic → 2026 hybrid evolution
-
-</td>
-</tr>
-</table>
+| Project | Stack | Proof |
+|---|---|---|
+| **[m365-automation-toolkit](https://github.com/byeongkicho/m365-automation-toolkit)** | PowerShell + Graph · idempotent · backoff+jitter (429/503) | 10-user onboarding **6.34s** measured (was ~30 min manual); other benchmarks self-reported |
+| **[Gluten-Free Korea](https://noglutenkorea.com)** | Next.js 15 · Cloudflare | **Live** — noglutenkorea.com · AI-assisted content pipeline |
+| **[Regime Music Societe](https://rmsociete.com)** | React · TypeScript | **Live** — paid client (Atlanta label) |
+| **[Cloud Architecture](https://github.com/byeongkicho/AWS_Architecture001)** | draw.io hybrid diagrams | Design artifact — **not deployed** |
 
 ---
 
 ### 🎯 Currently
 
-- 🏗️ Building production K8s + AWS EKS portfolio (FastAPI on kind → EKS with Terraform)
-- 📖 Studying **AZ-104** (Azure Administrator) — re-sitting after first attempt
-- 🔍 Looking for **Cloud / Infrastructure / DevOps / Cloud Support** roles — Seoul or Remote
-- 🌏 Bilingual: Korean (Native) / English (Full Professional, lived 5 years in the US)
+- 🏗️ Building an infra portfolio — FastAPI on K8s (kind → EKS) + Terraform + Prometheus / Grafana, capped by an **incident-copilot** that correlates Prometheus alerts and drafts an LLM-assisted runbook suggestion to cut time-to-first-hypothesis *(in progress)*
+- 📖 Working toward **CKAD**
+
+---
+
+### 📌 Open to: **SRE / DevOps / Platform / Cloud / AIOps** — Seoul or Remote
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-byeongkicho-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/byeongkicho)
+[![Email](https://img.shields.io/badge/byeongkicho%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:byeongkicho@gmail.com)
 
 ---
 
 ### 📜 Certifications
 
-AWS SAA · AWS Developer · CCNA · GCP ACE · OCI Architect Associate · HPE Hybrid Cloud · Azure AZ-900 · Google IT Support · (AZ-104 in progress)
-
----
-
-### 🔗 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-byeongkicho-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/byeongkicho)
-[![Email](https://img.shields.io/badge/byeongkicho%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:byeongkicho@gmail.com)
+Claude Certified Architect – Foundations · AWS Solutions Architect Associate · AWS Developer Associate · GCP Associate Cloud Engineer · Oracle OCI Architect Associate · Cisco CCNA · HPE Hybrid Cloud · Azure AZ-900 · Google IT Support — **CKAD in progress**
