@@ -32,7 +32,7 @@ Production-shaped **EKS 1.31** platform: modular **Terraform** (`vpc` / `eks` / 
 |---|---|---|
 | **[m365-automation-toolkit](https://github.com/byeongkicho/m365-automation-toolkit)** | PowerShell + Graph · idempotent · backoff+jitter (429/503) | 10-user onboarding **6.34s** measured (was ~30 min manual); other benchmarks self-reported |
 | **[Gluten-Free Korea](https://noglutenkorea.com)** | Next.js 15 · Cloudflare | **Live** — noglutenkorea.com · AI-assisted content pipeline |
-| **[Regime Music Societe](https://rmsociete.com)** | React · TypeScript | **Live** — paid client (Atlanta label) |
+| **[Regime Music Societe](https://rmsociete.com)** | React · TypeScript | **Close** — paid client (Atlanta label) |
 | **[Cloud Architecture](https://github.com/byeongkicho/AWS_Architecture001)** | draw.io hybrid diagrams | Design artifact — **not deployed** |
 
 ---
